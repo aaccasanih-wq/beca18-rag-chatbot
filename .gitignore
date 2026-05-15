@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+*.env
+
+# Vector DB (auto-generated, can be large)
+chroma_db_*/
+
+# Raster / GIS data (Task 1) — exclude large files
+*.tif
+*.tiff
+*.img
+*.vrt
+*.nc
+*.hdf
+*.h5
+data/raster/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
