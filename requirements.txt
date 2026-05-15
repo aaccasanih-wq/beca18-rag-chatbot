@@ -1,0 +1,8 @@
+pypdf
+tiktoken
+langchain-text-splitters
+google-genai
+chromadb
+ipywidgets
+tqdm
+python-dotenv
